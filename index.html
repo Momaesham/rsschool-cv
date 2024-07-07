@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doroshkevich CV RSS</title>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<nav class="header-nav">
+				<div class="hamburger-menu">
+					<input id="menu--toggle" type="checkbox">
+					<label class="menu--btn" for="menu--toggle">
+					  <span></span>
+					</label>
+					<ul class="header-nav-ul">
+						<li>
+							<a class="link" href="#contacts">My contacts</a>
+						</li>
+						<li>
+							<a class="link" href="#about">About me</a>
+						</li>
+						<li>
+							<a class="link" href="#strengths">My strengths</a>
+						</li>
+						<li>
+							<a class="link" href="#skills">Skills</a>
+						</li>
+						<li>
+							<a class="link" href="#code">Code Examples</a>
+						</li>
+						<li>
+							<a class="link" href="#education">Education</a>
+						</li>
+						<li>
+							<a class="link" href="#languages">Languages</a>
+						</li>
+					</ul>
+				</div>
+			</nav>   
+		</div>
+	</header>
+	<main>
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<div class="contacts-block">
+					<img src="./img/photo.png" alt="Egor photo" width="300" height="300">
+					<div class="contacts-block-right">
+						<h1 class="title">Egor Doroshkevich</h1>
+						<ul class="contacts-list">
+							<li class="contacts-list-item">Phone: 
+								<a class="link" href="tel:+375333145437">+375 33 314-54-37</a>
+							</li>
+							<li class="contacts-list-item">E-mail: 
+								<a class="link" href="mailto:egordoroshkevi4@gmail.com">egordoroshkevi4@gmail.com</a>
+							</li>
+							<li class="contacts-list-item">
+								<a class="link" href="https://github.com/Momaesham">GitHub</a>
+							</li>
+							<li class="contacts-list-item">
+								<a class="link" href="https://t.me/momae_sham">Telegram</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about-container">
+					<h2 class="title">About me</h2>
+					<p class="about-info">I am 24 years old, I work as a teacher at an online programming school. This job allows me to share knowledge, but I want to know more and leave teaching for development. I find the front-end direction incredibly interesting. That's why I'm here to become a full-stack developer.</p>
+				</div>
+			</div>
+		</section>
+		<section class="strengths" id="strengths">
+			<div class="container">
+				<div class="strengths-container">
+					<h2 class="title">My strengths</h2>
+					<ul class="strengths-list">
+						<li class="strengths-list-item">Quick learner</li>
+						<li class="strengths-list-item">Desire to understand the intricacies of how code works</li>
+						<li class="strengths-list-item">Fast and good adaptation</li>
+						<li class="strengths-list-item">Incommensurable desire to create something new</li>
+						<li class="strengths-list-item">Team playing</li>
+						<li class="strengths-list-item">Perseverance</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="skills" id="skills">
+			<div class="container">
+				<div class="skills-container">
+					<h2 class="title">Skills</h2>
+					<ul class="skills-list">
+						<li class="skills-list-item">
+							<img src="./img/skills/HTML5.png" alt="HTML5" width="40" height="40">
+							<p>HTML</p>
+						</li>
+						<li class="skills-list-item">
+							<img src="./img/skills/CSS3.png" alt="CSS3" width="40" height="40">
+							<p>CSS (SASS/SCSS, BEM)</p>
+						</li>
+						<li class="skills-list-item">
+							<img src="./img/skills/JS.png" alt="JS" width="40" height="40">
+							<p>JavaScript <br>(Fundamentals, ES6+, DOM, JSON)</p>
+						</li>
+						<li class="skills-list-item">
+							<img src="./img/skills/GitHub.png" alt="GitHub" width="40" height="40">
+							<p>Git/GitHub</p>
+						</li>
+						<li class="skills-list-item">
+							<img src="./img/skills/React.png" alt="React" width="45" height="40">
+							<p>Basic React</p>
+						</li>
+						<li class="skills-list-item">
+							<img src="./img/skills/Python.png" alt="Python" width="40" height="40">
+							<p>Basic Python</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="code" id="code">
+			<div class="container">
+				<div class="code-container">
+					<h2 class="title">Code Examples</h2>
+<div class="code-example">
+	function basicOp(operation, value1, value2){
+		switch(operation){
+			case "+":
+				return value1 + value2;
+			case "-":
+				return value1 - value2;
+			case "*":
+				return value1 * value2;
+			case "/":
+				return value2 != 0 ? value1 / value2 : null
+		}
+	}
+</div>
+				</div>
+			</div>
+		</section>
+		<section class="edu" id="education">
+			<div class="container">
+				<div class="edu-container">
+					<h2 class="title">Education</h2>
+					<ul class="edu-list">
+						<li class="edu-list-item">Brest State A. Pushkin University
+							<br>
+							<a class="link" href="https://physmat.brsu.by/">Physics and Informatics</a>	
+						</li>
+						<li class="edu-list-item">IT Academy Step
+							<br>
+							<a class="link" href="https://brest.itstep.by/">Development and promotion of WEB projects</a>
+						</li>						
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="lang" id="languages">
+			<div class="container">
+				<div class="lang-container">
+					<h2 class="title">Languages</h2>
+					<ul class="lang-list">
+						<li class="lang-list-item">Russian - native speaker</li>
+						<li class="lang-list-item">English - A2</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-container">
+				<img src="./img/rs.svg" alt="RS logo" width="300" height="111">
+				<a class="footer-text link" href="https://github.com/Momaesham">GitHub</a>
+				<a class="footer-text link" href="https://rs.school/courses/javascript-ru">Course</a>
+				<span class="footer-text">2024</span>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
